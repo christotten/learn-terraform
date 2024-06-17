@@ -41,7 +41,7 @@ resource "azurerm_virtual_network" "vnet" {
 }
 
 # Create a second virtual network
-resource "azurerm_virtual_network" "vnet" {
+resource "azurerm_virtual_network" "vnet2" {
   name                = "myTFVnet2"
   address_space       = ["10.0.0.1/16"]
   location            = "uksouth"
